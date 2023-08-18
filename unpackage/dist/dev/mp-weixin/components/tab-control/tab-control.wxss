@@ -1,0 +1,21 @@
+.tab-control {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.tab-control .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.tab-control .item .title {
+  padding: 0 16rpx 16rpx;
+  border-bottom: 6rpx solid transparent;
+}
+.tab-control .item .title.active {
+  color: #ff8198;
+  border-bottom: 6rpx solid #ff8198;
+}

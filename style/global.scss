@@ -1,0 +1,8 @@
+$primaryColor: #000;
+$primaryThemeColor: #ff8198;
+
+@mixin displayFlex($direction: row) {
+	display: flex;
+	flex-direction: $direction;
+	align-items: center;
+}

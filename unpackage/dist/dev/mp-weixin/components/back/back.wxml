@@ -1,0 +1,1 @@
+<view bindtap="{{b}}"><image class="top" src="{{a}}" mode="widthFix"></image></view>

@@ -1,0 +1,1 @@
+<view class="good-list"><uni-grid wx:if="{{b}}" u-s="{{['d']}}" u-i="65cb9fdc-0" bind:__l="__l" u-p="{{b}}"><block wx:for="{{a}}" wx:for-item="item" wx:key="d"><uni-grid-item u-s="{{['d']}}" u-i="{{item.c}}" bind:__l="__l"><good-item wx:if="{{item.b}}" u-i="{{item.a}}" bind:__l="__l" u-p="{{item.b}}"></good-item></uni-grid-item></block></uni-grid></view>

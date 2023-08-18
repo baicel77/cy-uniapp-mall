@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "tab-control": "../../components/tab-control/tab-control",
+    "back": "../../components/back/back",
+    "home-banner": "./c-cpns/home-banner",
+    "home-recommend": "./c-cpns/home-recommend",
+    "home-popular": "./c-cpns/home-popular",
+    "home-good-list": "./c-cpns/home-good-list"
+  }
+}

@@ -1,0 +1,6 @@
+.popular {
+  margin-top: 20rpx;
+}
+.popular .image {
+  width: 100%;
+}

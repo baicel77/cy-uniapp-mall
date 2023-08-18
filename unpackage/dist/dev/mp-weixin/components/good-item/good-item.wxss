@@ -1,0 +1,37 @@
+.item {
+  padding: 0 10rpx;
+  margin-bottom: 16rpx;
+}
+.item .image {
+  width: 100%;
+  border-radius: 10rpx;
+}
+.item .infos .title {
+  font-size: 28rpx;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.item .infos .bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 26rpx;
+}
+.item .infos .bottom .price {
+  margin-right: 6rpx;
+  color: #ff8198;
+}
+.item .infos .bottom .cfav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.item .infos .bottom .cfav .favor-icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 8rpx;
+}
